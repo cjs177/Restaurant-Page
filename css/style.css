@@ -1,0 +1,87 @@
+* {
+    background: slategray;
+    text-align: center;
+    font-family:monospace;
+    margin: 0;
+}
+
+#content {
+    background: tomato;
+    padding-top: 5px;
+    overflow: hidden;
+    height: 91.45vh;
+}
+
+img  {
+    width: 100%;
+    /*margin: 0;*/
+    padding: 0;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background: tomato;
+    float: left;
+    margin-top: 40px;
+    margin-left: 235px;
+}
+
+li {
+    margin: 5px;
+    font-size: 1.5rem;
+    background: tomato;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.pics {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    background: tomato;
+    margin-left: 50px;
+}
+
+.homeImage {
+    width: 925px;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 25px 35px;
+    font-size: 1.2rem;
+    background:whitesmoke;
+    border: none;
+    font-weight: bold;
+}
+
+.navContent {
+    margin-left: 20px;
+}
+
+.active{
+    background: tomato;
+}
+
+.menuText{
+    width: 100%;
+    margin: 8px;
+}
+
+
+p, h1, h3 {
+    background: tomato;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
